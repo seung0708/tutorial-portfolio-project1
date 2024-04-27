@@ -1,3 +1,10 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+}
+
 @media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
@@ -6,9 +13,32 @@
     #hamburger-nav {
         display: flex;
     }
+
+    #profile {
+        display: block;
+    }
+
+    section {
+        height: fit-content;
+    }
+
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 0;
+    }
+
+    .btn-container {
+        flex-wrap: wrap;
+    }
+
     .nav-links li a {
         font-size: 1rem;
     }
@@ -21,5 +51,19 @@
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
+    }
+
+    .section__pic-container {
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+
+    .title {
+        font-size: 2rem;
     }
 }
