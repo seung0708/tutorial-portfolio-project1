@@ -3,6 +3,10 @@
         height: 83vh;
         margin-bottom: 6rem;
     }
+
+    .about-containers {
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -14,18 +18,30 @@
         display: flex;
     }
 
-    #profile {
+    #profile, .section-container {
         display: block;
     }
 
-    section {
+    .arrow {
+        display: none;
+    }
+
+    section, .section-container {
         height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
     }
 
     .section__pic-container {
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
+    }
+
+    .about-containers {
+        margin-top: 0;
     }
 }
 
@@ -35,7 +51,7 @@
         margin-bottom: 0;
     }
 
-    .btn-container {
+    .about-containers, .btn-container {
         flex-wrap: wrap;
     }
 
