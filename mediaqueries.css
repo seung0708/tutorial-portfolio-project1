@@ -18,6 +18,10 @@
         display: flex;
     }
 
+    #experience, .experience-details-container {
+        margin-top: 2rem;
+    }
+
     #profile, .section-container {
         display: block;
     }
@@ -53,6 +57,10 @@
 
     .about-containers, .btn-container {
         flex-wrap: wrap;
+    }
+
+    .experience-sub-title {
+        font-size: 1.25rem;
     }
 
     .nav-links li a {
