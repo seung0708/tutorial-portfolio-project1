@@ -54,7 +54,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    #contact {
+    #contact, footer {
         height: 40vh;
     }
 
@@ -103,6 +103,5 @@
         font-size: 2rem;
     }
 }
-
 
 
