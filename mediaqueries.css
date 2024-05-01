@@ -8,7 +8,7 @@
         flex-wrap: wrap;
     }
 
-    #projects {
+    #contact, #projects {
         height: fit-content;
     }
 }
@@ -54,20 +54,28 @@
 }
 
 @media screen and (max-width: 600px) {
+    #contact {
+        height: 40vh;
+    }
+
     #profile {
         height: 83vh;
         margin-bottom: 0;
     }
 
-    .about-containers, .btn-container {
+    .about-containers, .contact-info-upper-container, .btn-container {
         flex-wrap: wrap;
+    }
+
+    .contact-info-container {
+        margin: 0;
     }
 
     .experience-sub-title {
         font-size: 1.25rem;
     }
 
-    .nav-links li a {
+    .contact-info-container p, .nav-links li a {
         font-size: 1rem;
     }
 
@@ -95,3 +103,6 @@
         font-size: 2rem;
     }
 }
+
+
+
